@@ -59,7 +59,7 @@
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor colorWithRed:(0/255.0) green:(180/255.0) blue:(250/255.0) alpha:1]}];
     self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:(0/255.0) green:(180/255.0) blue:(250/255.0) alpha:1];
     self.navigationController.navigationBar.translucent = false;
-    self.tabBarController.tabBar.barTintColor = [UIColor colorWithRed:(64/255.0) green:(64/255.0) blue:(64/255.0) alpha:1];
+    self.tabBarController.tabBar.barTintColor = [UIColor colorWithRed:(244/255.0) green:(244/255.0) blue:(244/255.0) alpha:1];
     self.tabBarController.tabBar.translucent = false;
 }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0119A9451881D0A0001F7673 /* artistTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0119A9441881D0A0001F7673 /* artistTabViewController.m */; };
+		0119A9471881D9AD001F7673 /* m7Featured.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0119A9461881D9AD001F7673 /* m7Featured.jpg */; };
 		0146AC60186737560028E181 /* eventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0146AC5F186737560028E181 /* eventDetailViewController.m */; };
 		014B1CAD184EBA6C0083C875 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014B1CAC184EBA6C0083C875 /* Foundation.framework */; };
 		014B1CAF184EBA6C0083C875 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014B1CAE184EBA6C0083C875 /* CoreGraphics.framework */; };
@@ -30,6 +32,7 @@
 		0156A9CA185CF6F9006DFCA9 /* artistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0156A9C9185CF6F9006DFCA9 /* artistDetailViewController.m */; };
 		0156A9CC185E02DF006DFCA9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0156A9CB185E02DF006DFCA9 /* MainStoryboard.storyboard */; };
 		0156A9CE185E0E0F006DFCA9 /* SteelersBW.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0156A9CD185E0E0F006DFCA9 /* SteelersBW.jpg */; };
+		01E0F38118837B790053771A /* FeaturedPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E0F38018837B790053771A /* FeaturedPost.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0119A9431881D0A0001F7673 /* artistTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = artistTabViewController.h; sourceTree = "<group>"; };
+		0119A9441881D0A0001F7673 /* artistTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = artistTabViewController.m; sourceTree = "<group>"; };
+		0119A9461881D9AD001F7673 /* m7Featured.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = m7Featured.jpg; path = nrve/m7Featured.jpg; sourceTree = "<group>"; };
 		0146AC5E186737560028E181 /* eventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = eventDetailViewController.h; path = ../eventDetailViewController.h; sourceTree = "<group>"; };
 		0146AC5F186737560028E181 /* eventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = eventDetailViewController.m; path = ../eventDetailViewController.m; sourceTree = "<group>"; };
 		014B1CA9184EBA6C0083C875 /* nrve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nrve.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +83,8 @@
 		0156A9C9185CF6F9006DFCA9 /* artistDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = artistDetailViewController.m; sourceTree = "<group>"; };
 		0156A9CB185E02DF006DFCA9 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0156A9CD185E0E0F006DFCA9 /* SteelersBW.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SteelersBW.jpg; sourceTree = "<group>"; };
+		01E0F37F18837B790053771A /* FeaturedPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeaturedPost.h; sourceTree = "<group>"; };
+		01E0F38018837B790053771A /* FeaturedPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeaturedPost.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,7 @@
 				0156A9CD185E0E0F006DFCA9 /* SteelersBW.jpg */,
 				0150A337185CCA43002C1052 /* 153-guitar.png */,
 				0150A335185CCA3B002C1052 /* 83-calendar.png */,
+				0119A9461881D9AD001F7673 /* m7Featured.jpg */,
 				014B1CB2184EBA6C0083C875 /* nrve */,
 				014B1CCB184EBA6C0083C875 /* nrveTests */,
 				014B1CAB184EBA6C0083C875 /* Frameworks */,
@@ -143,8 +152,12 @@
 				0150A346185CD34D002C1052 /* artistsTableViewController.m */,
 				0156A9C8185CF6F9006DFCA9 /* artistDetailViewController.h */,
 				0156A9C9185CF6F9006DFCA9 /* artistDetailViewController.m */,
+				0119A9431881D0A0001F7673 /* artistTabViewController.h */,
+				0119A9441881D0A0001F7673 /* artistTabViewController.m */,
 				0150A348185CD507002C1052 /* ArtistPost.h */,
 				0150A349185CD507002C1052 /* ArtistPost.m */,
+				01E0F37F18837B790053771A /* FeaturedPost.h */,
+				01E0F38018837B790053771A /* FeaturedPost.m */,
 				014B1CDB184EBAA60083C875 /* TableViewController.h */,
 				014B1CDC184EBAA60083C875 /* TableViewController.m */,
 				0146AC5E186737560028E181 /* eventDetailViewController.h */,
@@ -272,6 +285,7 @@
 				0150A336185CCA3B002C1052 /* 83-calendar.png in Resources */,
 				0156A9CC185E02DF006DFCA9 /* MainStoryboard.storyboard in Resources */,
 				0150A338185CCA43002C1052 /* 153-guitar.png in Resources */,
+				0119A9471881D9AD001F7673 /* m7Featured.jpg in Resources */,
 				0156A9CE185E0E0F006DFCA9 /* SteelersBW.jpg in Resources */,
 				014B1CB7184EBA6C0083C875 /* InfoPlist.strings in Resources */,
 				014B1CBF184EBA6C0083C875 /* Images.xcassets in Resources */,
@@ -295,11 +309,13 @@
 			files = (
 				0156A9CA185CF6F9006DFCA9 /* artistDetailViewController.m in Sources */,
 				014B1CE4184EBAA60083C875 /* ShowPost.m in Sources */,
+				01E0F38118837B790053771A /* FeaturedPost.m in Sources */,
 				014B1CE5184EBAA60083C875 /* WebViewController.m in Sources */,
 				014B1CBD184EBA6C0083C875 /* AppDelegate.m in Sources */,
 				014B1CE2184EBAA60083C875 /* TableViewController.m in Sources */,
 				0146AC60186737560028E181 /* eventDetailViewController.m in Sources */,
 				0150A347185CD34D002C1052 /* artistsTableViewController.m in Sources */,
+				0119A9451881D0A0001F7673 /* artistTabViewController.m in Sources */,
 				0150A34A185CD507002C1052 /* ArtistPost.m in Sources */,
 				014B1CB9184EBA6C0083C875 /* main.m in Sources */,
 			);
