@@ -55,7 +55,7 @@
         [self.showList addObject:showPost];
     }
     self.navigationController.navigationBar.topItem.title = @"Upcoming Shows";
-    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:(64/255.0) green:(64/255.0) blue:(64/255.0) alpha:1];
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:(245/255.0) green:(245/255.0) blue:(245/255.0) alpha:1];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor colorWithRed:(0/255.0) green:(180/255.0) blue:(250/255.0) alpha:1]}];
     self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:(0/255.0) green:(180/255.0) blue:(250/255.0) alpha:1];
     self.navigationController.navigationBar.translucent = false;

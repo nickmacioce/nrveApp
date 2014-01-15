@@ -11,5 +11,6 @@
 @interface artistsTableViewController : UITableViewController
 
 @property (nonatomic, strong) NSMutableArray *showList;
+@property (nonatomic, strong) NSMutableArray *featuredList;
 
 @end

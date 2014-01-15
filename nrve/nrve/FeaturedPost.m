@@ -29,4 +29,8 @@
     return [NSURL URLWithString:self.thumbnail];
 }
 
+- (NSURL *) thumbnailURL2 {
+    return [NSURL URLWithString:self.thumbnail2];
+}
+
 @end

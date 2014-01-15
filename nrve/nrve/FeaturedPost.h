@@ -13,6 +13,7 @@
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) NSString *genre;
 @property (nonatomic, strong) NSString *thumbnail;
+@property (nonatomic, strong) NSString *thumbnail2;
 @property (nonatomic, strong) NSString *description;
 @property (nonatomic, strong) NSURL *artistURL;
 
@@ -22,6 +23,7 @@
 + (id) showPostWithTitle:(NSString *)title;
 
 - (NSURL *) thumbnailURL;
+- (NSURL *) thumbnailURL2;
 
 
 @end
